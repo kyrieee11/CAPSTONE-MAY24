@@ -1,0 +1,145 @@
+body {
+    
+    margin: 0 100px 0px 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;   
+}
+.title{
+    display: inline-block;
+    font-family: "Dancing Script", cursive;
+}
+.link-container{
+    float: right;
+    position: relative;
+    top: 20px;
+}
+.link{
+    color:black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 17px;
+    transition: 0.2s;
+}
+.link:hover{
+    color: #52CBDC;
+    
+}
+.btn-link{
+    background-color: #52CBDC;
+    padding: 10px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    border-radius: 15px;
+    color: aliceblue;
+    transition: 0.2s;
+}
+.btn-link:hover{
+    color: rgb(0, 0, 0)   
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 35%;
+    
+}
+
+.login-form h2 {
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #555555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #e3dfdf;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    margin-left: 80px;
+    background-color: #52CBDC;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+
+   
+}
+button:hover {
+    color: #030303;
+}
+.create{
+    text-align: center; 
+    margin-top: 15px;
+}
+.create a{
+    text-decoration: none;
+    color: #52CBDC;
+    text-align: center;
+    
+}
+.create a:hover{
+    color: #000000;
+    
+}
+.create h1{
+    color: #52CBDC;
+    font-size: 15px;
+}
+.create h1:hover{
+    color: #000000;
+    
+}
+footer{
+    padding: 10px;
+    background-color: #52CBDC;
+    margin-top: 11%
+}
+.footer-col .container{
+    display: flex;
+}
+.daett{
+    color: white;
+
+}
+.visiting{
+    margin-left: 200px;
+    color: white;
+}
+.Contactt{
+    margin-left: 200px;
+    color: white;
+}
+.followw{
+    margin-left: 200px;
+    color: white;
+}
